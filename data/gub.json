@@ -1,0 +1,379 @@
+{
+  "title": "Mom's DIY Guide",
+  "updated": "2026-10-11",
+  "entries": [
+    {
+      "id": "netgear-wifi-password",
+      "group": "now",
+      "kind": "Wi-Fi & tech",
+      "title": "Change the Netgear Wi-Fi password",
+      "summary": "Log in to the router at routerlogin.net, open the wireless settings, type a new password for both bands, and reconnect each device. About 20 minutes.",
+      "tags": ["netgear", "wifi", "wi-fi", "password", "router", "internet", "network", "routerlogin", "wndr3400", "nighthawk", "laptop", "connect", "modem"],
+      "details": {
+        "Time": "About 20 minutes, plus reconnecting each device",
+        "Cost": "Free",
+        "Skill": "Beginner",
+        "You need": "A laptop or phone, ideally a laptop with an Ethernet cable",
+        "Where": "Your browser, at www.routerlogin.net"
+      },
+      "body": [
+        {"type": "h", "text": "First, which box is which"},
+        {"type": "p", "text": "Mom's setup has three Netgear boxes. The tall black one with the triangle-hole pattern and the round cable screwed into the back is the cable modem. It brings the internet in and has no Wi-Fi of its own, so you never change the Wi-Fi password on it."},
+        {"type": "p", "text": "The Wi-Fi comes from a router. There are two: the smaller, older one with the round blue button on top (its sticker says N600, model WNDR3400v2), and the flat router with three antennas (a Nighthawk-style model; its model number wasn't visible in the photos). In the photos the older N600 had its lights on and a yellow cable running to it, so it's most likely the one making the Wi-Fi. That's a guess from photos, so check which one has its lights on before you start."},
+        {"type": "note", "text": "If both routers are plugged in and lit, they may each broadcast their own network. Change the password on every router that's on, or unplug the one you don't use."},
+        {"type": "h", "text": "Change the Wi-Fi password"},
+        {"type": "steps", "items": [
+          "Connect to the router. A laptop plugged into one of the numbered LAN ports with an Ethernet cable is best, because Wi-Fi devices drop off the moment the password changes. A phone or laptop already on Mom's Wi-Fi also works.",
+          "Open a web browser and go to www.routerlogin.net. If that doesn't load, type 192.168.1.1 instead.",
+          "Sign in. The user name is admin. The password is the router's admin password, which is different from the Wi-Fi password. If nobody ever changed it, Netgear's factory default is the word password.",
+          "Open the wireless settings. On most Netgear routers it's under BASIC, then Wireless. On older models like the N600 it can appear as Wireless Settings in the left menu.",
+          "Under Security Options, choose WPA2-PSK [AES], or WPA2/WPA3 if your router offers it.",
+          "Type the new password in the Password (Network Key) box. Dual-band routers show one box for 2.4 GHz and one for 5 GHz; fill in both. Using the same password for both is fine.",
+          "Click Apply and wait about a minute. Every Wi-Fi device will disconnect.",
+          "Reconnect each device using the new password: phones, laptops, TV, printer, smart speakers."
+        ]},
+        {"type": "h", "text": "Pick a password Mom can actually type"},
+        {"type": "p", "text": "Three or four unrelated words plus a two-digit number make a strong password that's still easy to type on a TV remote. Aim for at least 12 characters. Write it on a card and keep it in a drawer, not taped to the router."},
+        {"type": "h", "text": "When a laptop says the password isn't correct"},
+        {"type": "p", "text": "Windows remembers the old password and keeps trying it. Open Settings, then Network & internet, then Wi-Fi, then Manage known networks. Pick Mom's network, choose Forget, then connect again and type the new password carefully. Watch for capital letters; the password is case-sensitive. On an iPhone, open Settings, then Wi-Fi, tap the (i) next to the network and choose Forget This Network."},
+        {"type": "h", "text": "Then change the router's admin password"},
+        {"type": "p", "text": "The admin password protects the settings page. If it's still the factory word, anyone on the Wi-Fi could change Mom's settings. On most Netgear routers it's under ADVANCED, then Administration, then Set Password. Type the current one, then the new one twice."},
+        {"type": "h", "text": "If you can't log in"},
+        {"type": "p", "text": "If the admin password was changed and nobody remembers it, the fix is a factory reset. With the router on, press and hold the small recessed reset button (labeled Restore Factory Settings on the N600) with a paperclip for about seven seconds, until the power light blinks. That timing is typical for Netgear routers; check your model's manual if it doesn't work. A reset erases every setting: the Wi-Fi name and password go back to what's printed on the sticker, and the admin login goes back to admin and password. Then follow the steps above to set new ones."},
+        {"type": "warn", "text": "Keep passwords out of photos, texts and chats. The router stickers and some earlier photos show passwords, which is one more reason to change them now."},
+        {"type": "h", "text": "Worth knowing"},
+        {"type": "p", "text": "The N600 (WNDR3400v2) is an older model. Netgear stops sending security updates when a product reaches End of Service, and older models like this one are likely past that point. Check its status at netgear.com/about/eos. If the three-antenna router is newer and works, using it instead of the N600 is the safer choice."}
+      ]
+    },
+    {
+      "id": "hang-heavy-frames",
+      "group": "now",
+      "kind": "Hanging & walls",
+      "title": "Hang the big frames in the living room",
+      "summary": "Weigh each frame, decide between the wall and the wood beam, then use hooks rated for the weight. Two hooks per wide frame keeps it level.",
+      "tags": ["hang", "hooks", "frame", "picture", "mirror", "living room", "beam", "wall", "ceiling", "anchor", "stud", "wire"],
+      "details": {
+        "Time": "About an hour for two frames",
+        "Cost": "About $15 to $40 in hooks and anchors",
+        "Skill": "Beginner",
+        "You need": "Bathroom scale, tape measure, pencil, level, drill, stud finder",
+        "Where": "Living room wall or the dark wood beam"
+      },
+      "body": [
+        {"type": "p", "text": "The photos show two large framed pieces with picture wire across the back, a dark wood beam running along the top of the wall, and a ceiling hook holding a hanging shell decoration on chain and S-hooks."},
+        {"type": "steps", "items": [
+          "Weigh each frame. Step on a bathroom scale holding it, then subtract your own weight.",
+          "Choose hardware rated for at least twice the frame's weight. The rating is printed on the package.",
+          "For frames wider than about two feet, use two hooks spaced apart instead of one. The frame stays level and the weight is shared.",
+          "Find a stud with a stud finder if you can. A screw into a stud holds far more than drywall alone.",
+          "Mark the height. A common guide is the center of the art about 57 to 60 inches from the floor, or 6 to 10 inches above a sofa.",
+          "Pull the picture wire up tight toward the top with a finger, measure from the top of the frame to the wire's peak, and set the hooks that far below your top-edge mark.",
+          "Hang it, step back, and check it with a level."
+        ]},
+        {"type": "h", "text": "Hanging from the wood beam"},
+        {"type": "p", "text": "Some beams are solid wood and some are hollow decorative boxes. Knock along it: a dull, solid thud means real wood; a hollow drum sound means a cover. A solid beam takes a screw-in eye hook or cup hook in a pre-drilled pilot hole. Don't hang heavy frames or mirrors from a hollow beam."},
+        {"type": "h", "text": "The ceiling hook"},
+        {"type": "p", "text": "A screw hook in the ceiling should go into a joist or use a toggle bolt rated for the weight. Textured drywall on its own holds very little, so check that the existing hook is snug before adding anything to the chain."},
+        {"type": "warn", "text": "Mirrors are heavier than they look. If a mirror is over about 30 pounds, use D-rings on the frame and a French cleat or screws into studs instead of a single wire."}
+      ]
+    },
+    {
+      "id": "bathroom-doorway-gate",
+      "group": "now",
+      "kind": "Doors & pets",
+      "title": "Fit a better gate in the bathroom doorway",
+      "summary": "Measure the opening at three heights, then choose a walk-through gate with a latch so Mom never has to step over it.",
+      "tags": ["bathroom", "doorway", "door", "gate", "pet gate", "dog", "dogs", "measure", "width", "opening"],
+      "details": {
+        "Time": "30 minutes to measure and install",
+        "Cost": "Roughly $30 to $90 for a walk-through gate",
+        "Skill": "Beginner",
+        "You need": "Tape measure, pencil, notepad",
+        "Where": "Bathroom doorway"
+      },
+      "body": [
+        {"type": "p", "text": "The photos show a white plastic pet gate set in the bathroom doorway, with the dogs inside, and the opening being measured across and up the door frame."},
+        {"type": "note", "text": "One photo reads roughly 28 to 29 inches across, but it's hard to tell which edge the tape started from. Re-measure before buying."},
+        {"type": "steps", "items": [
+          "Measure between the door jambs, inside the frame, not across the decorative trim.",
+          "Measure at the bottom, middle and top. Use the smallest number.",
+          "Check which way the door swings so the gate won't stop it from closing.",
+          "Choose a gate whose fit range includes your number, with room to spare on both ends.",
+          "Pick a walk-through style with a latch. Stepping over a gate is a common way to trip and fall.",
+          "For a pressure-mounted gate, use the wall cups that come with it on painted trim so it doesn't slide or mark the paint."
+        ]},
+        {"type": "p", "text": "If the goal is to keep dogs out while still letting air and light in, a walk-through gate is the quick fix. Converting the door into a half door is a much bigger project."}
+      ]
+    },
+    {
+      "id": "front-door-refinish",
+      "group": "now",
+      "kind": "Wood refinishing",
+      "title": "Sand and refinish the carved front door",
+      "summary": "Test for lead first, sand the flat parts with a sander and the carvings by hand, then seal with an exterior finish that blocks UV.",
+      "tags": ["front door", "door", "sand", "sanding", "refinish", "stain", "wood", "carved", "varnish", "sun", "weathered", "lead"],
+      "details": {
+        "Time": "2 to 3 days including drying",
+        "Cost": "About $60 to $150 in supplies",
+        "Skill": "Intermediate",
+        "You need": "Lead test kit, sander, sanding sponges, brushes, exterior stain and UV-blocking clear coat",
+        "Where": "Front door, in shade, early in the day"
+      },
+      "body": [
+        {"type": "p", "text": "The photos show a solid wood front door with fifteen carved panels and cream-colored accents. The hinge side is sun-bleached and dry, with raised grain where the finish has worn off."},
+        {"type": "warn", "text": "If the house was built before 1978, old paint or finish may contain lead. Test the cream accents and the finish with a lead test kit from a hardware store before any sanding. If it tests positive, don't dry-sand; hire a lead-safe certified painter."},
+        {"type": "steps", "items": [
+          "Take off or tape over the lever handle and deadbolt.",
+          "Wash the door with mild soap and water, rinse, and let it dry completely.",
+          "Sand the flat rails and stiles with an orbital sander, starting at 120 grit and finishing at 180.",
+          "Sand the carvings by hand with flexible sanding sponges or folded sandpaper. Power sanders round over carved edges.",
+          "Clean dust out of the carvings with a soft brush, then wipe with a tack cloth.",
+          "Touch up the cream accents with a small artist's brush and exterior paint, if needed.",
+          "Apply an exterior stain to even out the faded side, following the can's dry time.",
+          "Finish with two or three thin coats of an exterior clear coat with UV blockers, such as spar urethane. Lightly sand between coats with very fine paper."
+        ]},
+        {"type": "note", "text": "Desert sun breaks down door finishes fast. Plan a light maintenance coat on the sunny side every year or two, and work in the shade so the finish doesn't dry before you can brush it out."}
+      ]
+    },
+    {
+      "id": "patio-fire-pit",
+      "group": "past",
+      "kind": "Backyard build",
+      "title": "Paver patio with benches and a fire pit",
+      "summary": "A weekend build: grey pavers on leveled sand, a white pebble border, cinder-block-and-cedar benches, and a fire pit in the middle.",
+      "tags": ["patio", "pavers", "fire pit", "backyard", "bench", "cinder block", "cedar", "pebbles", "yard"],
+      "details": {
+        "Time": "One weekend",
+        "Cost": "About $300 to $450 (estimated August 2026; recheck prices)",
+        "Skill": "Intermediate",
+        "You need": "Shovel, landscape fabric, leveling sand, straight board, rubber mallet",
+        "Where": "Backyard, about a 10 by 10 foot area"
+      },
+      "body": [
+        {"type": "steps", "items": [
+          "Mark the footprint, strip the grass and dig down a few inches.",
+          "Lay landscape fabric over the whole area.",
+          "Spread leveling sand and drag a straight board across it until flat.",
+          "Set 24-inch pavers in a grid and tap each one level.",
+          "Paint the border blocks charcoal and set them around the edge.",
+          "Fill the channel between pavers and border with white pebbles.",
+          "Stack cinder blocks and slide cedar 4x4s through them for benches.",
+          "Add the fire pit, potted lavender and a lantern."
+        ]},
+        {"type": "note", "text": "From Mom's Backyard Hub plan. Check local rules on open fires before using the fire pit."}
+      ]
+    },
+    {
+      "id": "gilded-hands-planter",
+      "group": "past",
+      "kind": "Concrete craft",
+      "title": "Gilded hands planter",
+      "summary": "Two concrete hands cast in rubber gloves cradle a bowl molded in a watermelon, all sprayed metallic gold and planted with flowers.",
+      "tags": ["planter", "concrete", "hands", "gold", "craft", "flowers", "watermelon", "gloves"],
+      "details": {
+        "Time": "One weekend with an overnight cure",
+        "Cost": "About $85 to $135 (estimated August 2026; recheck prices)",
+        "Skill": "Beginner",
+        "You need": "Rubber gloves, concrete mix, a watermelon, a small steel bowl, gold spray paint",
+        "Where": "Porch or side table"
+      },
+      "body": [
+        {"type": "steps", "items": [
+          "Fill two rubber gloves with quick-set concrete and hang them to set in a relaxed shape.",
+          "Cut and peel the gloves away once firm.",
+          "Use a hollowed watermelon half as the bowl mold, with a small steel bowl pressed in to leave a planting cavity.",
+          "Peel off the rind once cured.",
+          "Set the bowl into the cupped hands.",
+          "Spray everything metallic gold, then plant it."
+        ]},
+        {"type": "note", "text": "From Mom's Backyard Hub. This idea came from a social media screenshot; expect some trial and error with the glove casts."}
+      ]
+    },
+    {
+      "id": "stone-vessel-sink",
+      "group": "past",
+      "kind": "Concrete craft",
+      "title": "Hand-poured stone vessel sink",
+      "summary": "A scalloped concrete bowl cast over an open umbrella, with a white basin and a ring of red glass pebbles. Works indoors as a sink or outdoors as a fountain bowl.",
+      "tags": ["sink", "vessel sink", "concrete", "umbrella", "bathroom", "fountain", "basin", "pebbles"],
+      "details": {
+        "Time": "Two days plus cure time",
+        "Cost": "About $220 to $350 (estimated August 2026; recheck prices)",
+        "Skill": "Advanced",
+        "You need": "Umbrella, concrete mix, plastic tub, masonry bit, sink-rated paint, drain kit, faucet",
+        "Where": "Powder room or garden"
+      },
+      "body": [
+        {"type": "steps", "items": [
+          "Pour concrete over an open, braced umbrella to form the scalloped bowl.",
+          "Set a round plastic tub in the center and pour around it to form the basin.",
+          "Press pebbles into the wet rim.",
+          "Lift out the tub once cured, then drill the drain hole.",
+          "Seal and paint the basin white, set the glass pebble ring, and fit the drain and faucet."
+        ]},
+        {"type": "warn", "text": "Concrete must be fully sealed before it holds water indoors, and connecting a new sink is plumbing work. If it's going in a bathroom, have a plumber connect it."}
+      ]
+    },
+    {
+      "id": "bear-table",
+      "group": "past",
+      "kind": "Concrete craft",
+      "title": "Sculpted concrete bear table",
+      "summary": "A large plush bear coated in concrete, posed with arms up, painted and sealed, with a round glass top on its paws.",
+      "tags": ["bear", "table", "concrete", "sculpture", "glass", "side table"],
+      "details": {
+        "Time": "A couple of weekends",
+        "Cost": "About $330 to $530 plus mixer rental (estimated August 2026)",
+        "Skill": "Advanced",
+        "You need": "Large plush bear, 15 to 20 bags of concrete, rented mixer, props, exterior paint, sealer, glass top",
+        "Where": "Living room or patio"
+      },
+      "body": [
+        {"type": "p", "text": "The biggest of the four backyard ideas: coat the bear in concrete, brace the pose while it cures, smooth it, paint the face and details, seal it, and set a glass top cut to size on the paws."},
+        {"type": "warn", "text": "This technique comes from a social media video and hasn't been tested here. The finished piece will be very heavy; plan who moves it and where it lives before casting."}
+      ]
+    },
+    {
+      "id": "ceiling-fan-swap",
+      "group": "past",
+      "kind": "Electrical",
+      "title": "Swap a light fixture for a ceiling fan",
+      "summary": "Six steps in an afternoon. The one check that matters: the ceiling box must be rated for a fan, not just for weight.",
+      "tags": ["fan", "ceiling fan", "light", "fixture", "chandelier", "electrical", "wiring", "breaker"],
+      "details": {
+        "Time": "One afternoon",
+        "Cost": "Cost of the fan, plus a fan-rated brace if needed",
+        "Skill": "Intermediate",
+        "You need": "Non-contact voltage tester, screwdrivers, wire strippers, ladder, helper",
+        "Where": "Kitchen ceiling"
+      },
+      "body": [
+        {"type": "steps", "items": [
+          "Turn off the breaker, not just the wall switch, and confirm with a voltage tester.",
+          "Take down the old fixture and photograph the wiring.",
+          "Check the ceiling box is stamped as fan-rated. If not, install a fan-rated brace.",
+          "Mount the fan bracket.",
+          "Wire the motor, attach the blades and balance them.",
+          "Turn the breaker on and test the fan, light and remote."
+        ]},
+        {"type": "note", "text": "Some cities require a permit for fixture changes. A quick call to the local building department settles it."}
+      ]
+    },
+    {
+      "id": "hardware-restoration",
+      "group": "past",
+      "kind": "Cleaning & restoring",
+      "title": "Strip paint off hinges and polish them",
+      "summary": "Remove dried paint overspray from hinges and hardware with Goof Off, then polish brass with Brasso and nickel with Bar Keepers Friend.",
+      "tags": ["hinges", "hardware", "paint", "overspray", "brass", "nickel", "polish", "cabinet", "restore"],
+      "details": {
+        "Time": "30 to 45 minutes",
+        "Cost": "Under $35 (estimated August 2026)",
+        "Skill": "Beginner",
+        "You need": "Goof Off Pro Strength, Brasso, Bar Keepers Friend, rags, gloves, goggles",
+        "Where": "Outdoors or an open garage"
+      },
+      "body": [
+        {"type": "steps", "items": [
+          "Test the remover on a hidden spot of one hinge and wait a minute.",
+          "Dampen a rag with remover rather than pouring it on the metal.",
+          "Wipe off the paint one hinge at a time.",
+          "Polish brass with Brasso and nickel or chrome with Bar Keepers Friend.",
+          "Rinse, dry and reinstall."
+        ]},
+        {"type": "warn", "text": "Goof Off is very flammable. Work outside, away from pilot lights and heaters, with gloves and eye protection."}
+      ]
+    },
+    {
+      "id": "paint-textured-door",
+      "group": "past",
+      "kind": "Painting",
+      "title": "Paint a textured door without losing the texture",
+      "summary": "Normal paint follows the wood-grain texture instead of filling it. Clean first, use thin coats, and don't sand aggressively.",
+      "tags": ["paint", "door", "textured", "molded", "interior door", "woodgrain", "primer"],
+      "details": {
+        "Time": "One day with drying",
+        "Cost": "About $30 to $60 in paint and supplies",
+        "Skill": "Beginner",
+        "You need": "Mild cleaner, light sanding sponge, primer if needed, brush and small roller",
+        "Where": "Interior doors"
+      },
+      "body": [
+        {"type": "p", "text": "A coat of latex paint is a thin film, so wood-grain lines and panel edges stay visible. Texture is only lost by heavy sanding, filler, skim coats or thick high-build primers."},
+        {"type": "steps", "items": [
+          "Clean the door with mild soap or a TSP substitute and let it dry.",
+          "Scuff gloss lightly with a fine sanding sponge, without flattening the grain.",
+          "Prime only if changing from dark to light or covering stains.",
+          "Brush the panel edges first, then roll the flat areas with thin coats."
+        ]}
+      ]
+    },
+    {
+      "id": "parapet-crack-repair",
+      "group": "past",
+      "kind": "Roof & exterior",
+      "title": "Seal cracks in a roof parapet",
+      "summary": "Clean, fill and seal each crack early in the morning, then topcoat with elastomeric roof coating once the sealant has cured.",
+      "tags": ["roof", "parapet", "crack", "stucco", "seal", "caulk", "elastomeric", "leak"],
+      "details": {
+        "Time": "About two hours for sealing, plus a topcoat later",
+        "Cost": "Depends on the number of cracks",
+        "Skill": "Intermediate",
+        "You need": "Wire brush, elastomeric caulk or Sashco Mor-Flexx, backer rod, gloves, eye protection",
+        "Where": "Flat roof parapet (done for Kat)"
+      },
+      "body": [
+        {"type": "p", "text": "Hairline cracks get one bead of elastomeric caulk tooled flush. Wider cracks get packed first, then bridged with sealant. Where loose stucco has come off down to block, a flexible mortar repair product like Sashco Mor-Flexx fills it."},
+        {"type": "warn", "text": "Work before late morning in summer heat. Wear grippy shoes, bring water, set the ladder on level ground, and tell someone you're on the roof."}
+      ]
+    },
+    {
+      "id": "magnetic-dryer-vent",
+      "group": "past",
+      "kind": "Laundry",
+      "title": "Magnetic dryer vent connector",
+      "summary": "A wall bracket and hose collar with magnets, so the dryer hose pops off by hand for cleaning.",
+      "tags": ["dryer", "vent", "laundry", "hose", "magnetic", "lint"],
+      "details": {
+        "Time": "30 to 45 minutes",
+        "Cost": "About $24 to $45 (estimated September 2026)",
+        "Skill": "Beginner",
+        "You need": "The connector kit, drill, screwdriver",
+        "Where": "Laundry room, standard 4-inch duct (done for Kat)"
+      },
+      "body": [
+        {"type": "steps", "items": [
+          "Screw the wall plate around the existing vent opening.",
+          "Seat the wall-side collar in the bracket.",
+          "Fit the hose-side magnetic ring to the dryer hose.",
+          "Snap the two together and check for a snug seal."
+        ]},
+        {"type": "note", "text": "Cleaning lint from the vent regularly lowers dryer fire risk. This kit makes that a quick job."}
+      ]
+    },
+    {
+      "id": "wasps-roof-vent",
+      "group": "past",
+      "kind": "Pests",
+      "title": "Wasps at a damaged roof vent",
+      "summary": "Never seal a vent wasps are using. Confirm whether there's an active nest first, treat it if there is, then replace the vent cap and screen.",
+      "tags": ["wasp", "wasps", "vent", "roof", "nest", "pest", "exterminator"],
+      "details": {
+        "Time": "Inspection first; repair after",
+        "Cost": "About $15 for a vent repair to $400 or more if a nest needs treatment (estimated September 2026)",
+        "Skill": "Needs a pro to check",
+        "You need": "Safe viewing distance, a pest professional's opinion",
+        "Where": "Flat roof exhaust vent (done for Kat)"
+      },
+      "body": [
+        {"type": "steps", "items": [
+          "Watch the vent from a distance for a few minutes. Steady traffic in and out suggests an active nest.",
+          "Have an experienced person confirm what's inside without disturbing it.",
+          "If there's a nest, have it treated and let it clear completely.",
+          "Then replace the torn screen and cracked hood."
+        ]},
+        {"type": "warn", "text": "Sealing a vent with a live nest inside can push wasps through drywall or ducts into the house."}
+      ]
+    }
+  ]
+}
