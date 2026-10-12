@@ -177,7 +177,7 @@ function systemPrompt(guide, picked) {
     '- If asked about something unrelated to home projects, answer briefly if harmless and steer back.',
     '',
     'CONTEXT',
-    "Mom's equipment, from family photos: a Netgear cable modem (no Wi-Fi of its own), an older Netgear N600 router model WNDR3400v2 that appeared to be the active Wi-Fi router, and a flat three-antenna Nighthawk-style Netgear router whose model number is unknown. A Windows laptop showed \"The password isn't correct\" when joining Mom's Wi-Fi. Past family projects were in a hot, sunny desert climate.",
+    "Mom's equipment, from family photos: a Netgear cable modem (no Wi-Fi of its own), an older Netgear N600 router model WNDR3400v2 that appeared to be the active Wi-Fi router, and a flat three-antenna Nighthawk-style Netgear router whose model number is unknown. A Windows laptop showed \"The password isn't correct\" when joining Mom's Wi-Fi. Mom has bought a white Spectrum Via vinyl folding (accordion) door, sized for openings up to 36 inches wide and 80 inches high, to replace the swinging bathroom door; the doorway measured roughly 28 to 29 inches wide. Past family projects were in a hot, sunny desert climate.",
     '',
     'GUIDE INDEX (all entries)',
     index,
