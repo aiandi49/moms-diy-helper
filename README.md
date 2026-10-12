@@ -26,6 +26,7 @@ The guide works as soon as it deploys. The helper chat answers only once `ANTHRO
 | --- | --- |
 | `index.html`, `assets/js/engine.js`, `assets/css/engine.css` | The helper (home page): chat, top match, shortlist, project details |
 | `guide/index.html`, `assets/js/guide.js`, `assets/css/guide.css` | The guide, built from `data/gub.json` |
+| `guide/folding-door.html`, `assets/css/howto.css`, `assets/js/howto.js` | Illustrated, printable step-by-step for putting up Mom's folding door, at `/guide/folding-door` |
 | `data/gub.json` | All guide content. Edit it to add or change a job; both pages use it |
 | `api/chat.js` | Server function that holds the API key and talks to Claude |
 | `assets/js/prefs.js` | Text-size and theme buttons, shared by both pages |
@@ -33,7 +34,7 @@ The guide works as soon as it deploys. The helper chat answers only once `ANTHRO
 
 ### Adding a job to the guide
 
-Add an entry to `data/gub.json` with `id`, `group` (`now` or `past`), `kind`, `title`, `summary`, `tags`, `details` and `body`. Body blocks are `h`, `p`, `steps`, `list`, `note` and `warn`. The helper reads the same file, so it learns the new job on the next deploy.
+Add an entry to `data/gub.json` with `id`, `group` (`now` or `past`), `kind`, `title`, `summary`, `tags`, `details` and `body`. Body blocks are `h`, `p`, `steps`, `list`, `note`, `warn` and `link` (a button to another page on this site; `href` must start with `/`). The helper reads the same file, so it learns the new job on the next deploy.
 
 ## What works, and what doesn't
 
