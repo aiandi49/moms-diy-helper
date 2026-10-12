@@ -1,0 +1,112 @@
+/* Illustrated how-to pages. Loads after guide.css. */
+
+:root[data-theme="light"] {
+  --fig-bg: #eef9f8;
+  --fig-wall: #dceff3;
+  --fig-open: #ffffff;
+  --fig-line: #0b2a4a;
+  --fig-soft: #6f8ba1;
+  --fig-door: #ffffff;
+  --fig-metal: #b9c9d4;
+  --fig-accent: #0f766e;
+  --fig-arrow: #0b5c86;
+  --fig-cut: #b4302f;
+  --fig-tape: #f2d27a;
+}
+:root[data-theme="dark"] {
+  --fig-bg: #0c2e42;
+  --fig-wall: #0f3a50;
+  --fig-open: #072033;
+  --fig-line: #e7f5f7;
+  --fig-soft: #8fb3c4;
+  --fig-door: #15435c;
+  --fig-metal: #5a7c8f;
+  --fig-accent: #5eead4;
+  --fig-arrow: #7dd3fc;
+  --fig-cut: #ffa196;
+  --fig-tape: #b8963a;
+}
+
+/* Tools card */
+.kit h2 { margin-bottom: 0.6rem; }
+.kit ul { margin: 0; padding-left: 1.2rem; text-align: left; color: var(--text); }
+.kit li { margin: 0.25rem 0; }
+
+/* Steps */
+.howto-steps {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 48rem) { .howto-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 80rem) { .howto-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 110rem) { .howto-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.step {
+  min-width: 0; display: flex; flex-direction: column;
+  background: var(--page); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); overflow: hidden; text-align: left;
+}
+.step figure { margin: 0; padding: 0.75rem 0.75rem 0; }
+.fig { display: block; width: 100%; height: auto; }
+.step-body { padding: 0.8rem 1rem 1.1rem; }
+.step-stage { margin: 0; color: var(--muted); font-size: 0.85rem; font-weight: 600; }
+.step-num {
+  display: inline-block; margin-right: 0.35rem; padding: 0.1rem 0.6rem; border-radius: var(--radius-pill);
+  background: var(--step-num); color: var(--section); font-weight: 700;
+}
+.step h3 { margin: 0.4rem 0 0.35rem; font-family: var(--font-head); font-weight: 600; font-size: 1.35rem; line-height: 1.2; }
+.step p:last-child { margin: 0; }
+
+.howto-warn, .howto-note { margin-top: 1.25rem; }
+
+/* Drawing styles (presentation only; no inline styles so the CSP stays strict) */
+.fig .fig-bg { fill: var(--fig-bg); }
+.fig .wall { fill: var(--fig-wall); }
+.fig .opening { fill: var(--fig-open); }
+.fig .frame { fill: none; stroke: var(--fig-line); stroke-width: 5; stroke-linejoin: round; }
+.fig .floor { stroke: var(--fig-line); stroke-width: 2; }
+.fig .jamb { fill: var(--fig-open); stroke: var(--fig-line); stroke-width: 2; }
+.fig .door { fill: var(--fig-door); stroke: var(--fig-line); stroke-width: 2; }
+.fig .panel { fill: none; stroke: var(--fig-soft); stroke-width: 1.5; }
+.fig .pleat { stroke: var(--fig-soft); stroke-width: 1.5; }
+.fig .metal { fill: var(--fig-metal); stroke: var(--fig-line); stroke-width: 1.5; }
+.fig .handle { fill: var(--fig-accent); stroke: var(--fig-line); stroke-width: 1.5; }
+.fig .pin { stroke: var(--fig-line); stroke-width: 3; stroke-linecap: round; }
+.fig .hole { fill: var(--fig-line); }
+.fig .knob { fill: var(--fig-metal); stroke: var(--fig-line); stroke-width: 1.5; }
+.fig .screw { fill: var(--fig-metal); stroke: var(--fig-line); stroke-width: 1.2; }
+.fig .screw-slot { stroke: var(--fig-line); stroke-width: 1; }
+.fig .washer { fill: var(--fig-open); stroke: var(--fig-line); stroke-width: 1.2; }
+.fig .accent-fill { fill: var(--fig-accent); stroke: var(--fig-line); stroke-width: 1; }
+.fig .strip { fill: var(--fig-metal); }
+.fig .roller { fill: var(--fig-accent); stroke: var(--fig-line); stroke-width: 1.2; }
+.fig .packet { fill: var(--fig-open); stroke: var(--fig-line); stroke-width: 1.5; }
+.fig .tape { fill: var(--fig-tape); stroke: var(--fig-line); stroke-width: 1; }
+.fig .cut { stroke: var(--fig-cut); stroke-width: 2.5; stroke-dasharray: 6 4; }
+.fig .arrow { stroke: var(--fig-arrow); stroke-width: 3; stroke-linecap: round; }
+.fig .arrow-head { fill: var(--fig-arrow); }
+.fig .ok { fill: var(--fig-accent); }
+.fig .ok-mark { fill: none; stroke: var(--fig-open); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .lbl { fill: var(--fig-line); font-family: var(--font-body); font-size: 13px; font-weight: 600; }
+.fig .lbl.sm { font-size: 11.5px; }
+
+/* Print: black on white, two steps per row, nothing cut across pages */
+@media print {
+  :root, :root[data-theme="dark"] {
+    --page: #ffffff; --section: #ffffff; --text: #000000; --muted: #222222; --line: #999999;
+    --fig-bg: #ffffff; --fig-wall: #f2f2f2; --fig-open: #ffffff; --fig-line: #000000; --fig-soft: #666666;
+    --fig-door: #ffffff; --fig-metal: #cccccc; --fig-accent: #555555; --fig-arrow: #000000; --fig-cut: #000000; --fig-tape: #dddddd;
+    --step-num: #000000; --shadow: none;
+  }
+  .nav, .skip-link, .hero-actions, .foot { display: none; }
+  .hero { padding: 0 0 0.5rem; background: none; border: 0; text-align: left; }
+  .hero-inner { display: block; }
+  .kit { box-shadow: none; margin-top: 0.75rem; }
+  .band { padding: 0.5rem 0; border: 0; }
+  .wrap { width: 100%; }
+  .howto-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+  .step { break-inside: avoid; page-break-inside: avoid; box-shadow: none; }
+  .step h3 { font-size: 1.1rem; }
+  .callout { break-inside: avoid; }
+}
