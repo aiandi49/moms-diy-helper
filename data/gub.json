@@ -214,6 +214,11 @@
           "text": "These steps follow the maker's instructions (LTL Home Products) for their 24 to 36 inch folding doors. Read the sheet inside Mom's box first; if any step differs, follow her sheet."
         },
         {
+          "type": "link",
+          "href": "/guide/folding-door",
+          "text": "See the illustrated step-by-step"
+        },
+        {
           "type": "h",
           "text": "Before you start"
         },
