@@ -1,0 +1,10 @@
+// Illustrated how-to pages: print button.
+(function () {
+  'use strict';
+  var btn = document.getElementById('printBtn');
+  if (btn && typeof window.print === 'function') {
+    btn.addEventListener('click', function () { window.print(); });
+  } else if (btn) {
+    btn.hidden = true;
+  }
+})();
