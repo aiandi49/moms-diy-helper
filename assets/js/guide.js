@@ -28,6 +28,13 @@
       (b.items || []).forEach(function (it) { list.appendChild(el('li', '', it)); });
       return list;
     }
+    if (b.type === 'link' && typeof b.href === 'string' && /^\/[a-z0-9\/#-]*$/i.test(b.href) && b.href.indexOf('//') === -1) {
+      var wrap = el('p', 'link-block');
+      var a = el('a', 'btn solid', b.text);
+      a.href = b.href;
+      wrap.appendChild(a);
+      return wrap;
+    }
     if (b.type === 'note' || b.type === 'warn') {
       var box = el('div', 'callout' + (b.type === 'warn' ? ' warn' : ''));
       box.appendChild(el('strong', '', b.type === 'warn' ? 'Safety' : 'Good to know'));
